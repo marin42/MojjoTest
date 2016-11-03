@@ -10,7 +10,7 @@
 	.section-title {
 		color: white;
 		font-weight: bold;
-		font-size: 4em;
+		font-size: 2em;
 		text-transform: uppercase;
 		text-align: right;
 		display: inline-block;
@@ -30,12 +30,12 @@
 		}]);
 	</script>
 	<div ng-app="mojjoTest" ng-controller="mojjoCtrl">
-		<h2 class="section-title">Player serves</h2>
+		<h2 class="section-title">Successful player serves on first set</h2>
 		<ul class="list-group">
-			<li class="list-group-item" ng-repeat="x in data.player.service_stats">{{x.all_match.value}} / {{x.all_match.total}}</li>
+			<li class="list-group-item" ng-repeat="x in data.player.service_stats track by $index">Serve {{$index + 1}}: {{x.set_1.value}} / {{x.set_1.total}}</li>
 		</ul>
-		<h2 class="section-title">Opponent serves</h2>
+		<h2 class="section-title">Successful opponent serves on first set</h2>
 		<ul class="list-group">
-			<li class="list-group-item" ng-repeat="x in data.opponent.service_stats">{{x.all_match.value}} / {{x.all_match.total}}</li>
+			<li class="list-group-item" ng-repeat="x in data.opponent.service_stats track by $index">Serve {{$index + 1}}: {{x.set_1.value}} / {{x.set_1.total}}</li>
 		</ul>
 	</div> </body>

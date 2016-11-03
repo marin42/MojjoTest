@@ -3,10 +3,6 @@
     "name": "John Doe",
     "service_stats": [
       {
-        "all_match": {
-          "value": 11,
-          "total": 14
-        },
         "set_1": {
           "value": 5,
           "total": 9
@@ -17,10 +13,6 @@
         }
       },
       {
-        "all_match": {
-          "value": 16,
-          "total": 18
-        },
         "set_1": {
           "value": 11,
           "total": 12
