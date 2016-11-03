@@ -1,0 +1,69 @@
+{
+  "player": {
+    "name": "John Doe",
+    "service_stats": [
+      {
+        "all_match": {
+          "value": 11,
+          "total": 14
+        },
+        "set_1": {
+          "value": 5,
+          "total": 9
+        },
+        "set_2": {
+          "value": 6,
+          "total": 6
+        }
+      },
+      {
+        "all_match": {
+          "value": 16,
+          "total": 18
+        },
+        "set_1": {
+          "value": 11,
+          "total": 12
+        },
+        "set_2": {
+          "value": 5,
+          "total": 6
+        }
+      }
+    ]
+  },
+
+  "opponent": {
+    "name": "George Abitbol",
+    "service_stats":[
+      {
+        "all_match": {
+          "value": 19,
+          "total": 24
+        },
+        "set_1": {
+          "value": 12,
+          "total": 15
+        },
+        "set_2": {
+          "value": 6,
+          "total": 9
+        }
+      },
+      {
+        "all_match": {
+          "value": 20,
+          "total": 28
+        },
+        "set_1": {
+          "value": 12,
+          "total": 15
+        },
+        "set_2": {
+          "value": 8,
+          "total": 13
+        }
+      }
+    ]
+  }
+}
